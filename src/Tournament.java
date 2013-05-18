@@ -15,10 +15,11 @@ public class Tournament {
 
         List<Player> players = new ArrayList<Player>();
 
-        players.add(new NaivePlayer("Naive1"));
-        players.add(new NaivePlayer("Naive2"));
-        players.add(new NaivePlayer("Naive3"));
-        players.add(new NaivePlayer("Naive4"));
+        players.add(new NaivePlayer("1"));
+        players.add(new NaivePlayer("2"));
+        players.add(new NaivePlayer("3"));
+        players.add(new NaivePlayer("4"));
+        players.add(new Graham());
 
         int playerCount = players.size();
         int rotateAmount = 52 % playerCount;
